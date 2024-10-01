@@ -1,29 +1,77 @@
 /* set margin padding and font for the page. this is a css comment */
+
+* {
+    text-align: center;
+}
+
+
 .text{
     color: white;
     font-family: sans-serif;
 
 }
 
-/* this is a class*/
-.greenbg{
-    background-color: palegreen;
-}
+
 
 /*this one is called by id and not by class*/
-#ginger{
+.ginger{
     background-color: rgb(243, 209, 145);
+    border-radius: 5px;
+    border-color: rgb(158, 118, 59);
 }
 
 
-#firstdiv{
+@keyframes moving {
+    0% {
+        top: 0px;
+        left: 0px ;}
+    25% {
+        top: 0px;
+        left: 100px;
+    }
+    75% { 
+        top: 100px;
+        left: 100px;
+    }
+    100% {
+        top: 100px;
+        left: 0px;
+    }
+}
+
+#animal{
+    animation-name: moving;
+    position: absolute;
+    animation-duration: 3;
+    animation-iteration-count: infinite;
+}
+
+
+
+.lightdiv{
     background-color: rgb(230, 230, 255);
+}
+
+
+
+.container {
+    width: 50%;
+    height: 50%;
+
+    display: flex; /* fluidity */
+    flex-direction: column; /* prevents everything on the same line? */
+    align-items: center; /* vertically centered */ 
+    justify-content: center; /* horizontally centered */
 }
 
 /* specific for h1 */
 h1{
     color: rgb(57, 17, 122);
     font-family: fantasy;
+    font-weight: 500;
+    background-color: rgb(224, 88, 129);
+    box-shadow: 5px 5px rgb(134, 38, 46);
+    border-radius: 10px;
 }
 
 /*generic body colouring*/
