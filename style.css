@@ -50,7 +50,6 @@
 
 nav {
     position: fixed;
-    background-color:rgb(183, 183, 250);
     /* its suppost to stay when you scroll */
 }
 /*navigation style - selects any ul inside a nav*/
