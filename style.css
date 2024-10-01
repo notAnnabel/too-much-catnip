@@ -42,7 +42,7 @@
 #animal{
     animation-name: moving;
     position: absolute;
-    animation-duration: 3;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -73,6 +73,16 @@ nav ul li {
     cursor: pointer;
 }
 
+
+#aboutpage {
+    background-image: url('assets/sleeping ginger.png');
+    align-items: center; /* vertically centered */ 
+    justify-content: center; /* horizontally centered */
+    font-size: 100px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 10%;
+}
 
 a {
     all: unset;
