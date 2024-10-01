@@ -21,7 +21,7 @@
 }
 
 
-@keyframes moving {
+@keyframes moving{
     0% {
         top: 0px;
         left: 0px ;}
@@ -46,7 +46,22 @@
     animation-iteration-count: infinite;
 }
 
+/*navigation style - selects any ul inside a nav*/
+nav ul{
+    display: flex;
+    text-align: left;
+    color: white;
+    list-style-type: none;
+}
 
+nav ul li {
+    /* padding is space between element and border*/
+    padding: 5px;
+    border-radius: solid;
+    border-width: 2px;
+    /*margin is space betweeen border and other elements*/
+    margin: 5px;
+}
 
 .lightdiv{
     background-color: rgb(230, 230, 255);
