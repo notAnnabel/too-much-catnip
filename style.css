@@ -5,14 +5,23 @@
 
 }
 
+.greenbg{
+    background-color: palegreen;
+}
+
 #ginger{
     background-color: rgb(243, 209, 145);
 }
 
+
+#firstdiv{
+    background-color: rgb(230, 230, 255);
+}
 h1{
-    color: black;
+    color: rgb(57, 17, 122);
+    font-family: fantasy;
 }
 
 body{
-    background-color: blue;
+    background-color: rgb(183, 183, 250);
 }
