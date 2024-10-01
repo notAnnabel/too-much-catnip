@@ -46,12 +46,20 @@
     animation-iteration-count: infinite;
 }
 
+
+
+nav {
+    position: fixed;
+    background-color:rgb(183, 183, 250);
+    /* its suppost to stay when you scroll */
+}
 /*navigation style - selects any ul inside a nav*/
 nav ul{
     display: flex;
     text-align: left;
     color: white;
     list-style-type: none;
+    background-color:rgb(183, 183, 250);
 }
 
 nav ul li {
@@ -61,6 +69,15 @@ nav ul li {
     border-width: 2px;
     /*margin is space betweeen border and other elements*/
     margin: 5px;
+    background-color: rgb(178, 215, 248);
+    border-color:aquamarine;
+    cursor: pointer;
+}
+
+
+a {
+    all: unset;
+    /* remove default css*/
 }
 
 .lightdiv{
