@@ -1,14 +1,16 @@
-
+/* set margin padding and font for the page. this is a css comment */
 .text{
     color: white;
     font-family: sans-serif;
 
 }
 
+/* this is a class*/
 .greenbg{
     background-color: palegreen;
 }
 
+/*this one is called by id and not by class*/
 #ginger{
     background-color: rgb(243, 209, 145);
 }
@@ -17,11 +19,14 @@
 #firstdiv{
     background-color: rgb(230, 230, 255);
 }
+
+/* specific for h1 */
 h1{
     color: rgb(57, 17, 122);
     font-family: fantasy;
 }
 
+/*generic body colouring*/
 body{
     background-color: rgb(183, 183, 250);
 }
